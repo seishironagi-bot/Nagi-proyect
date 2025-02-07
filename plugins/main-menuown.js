@@ -241,4 +241,4 @@ function ucapan() {
     res = "Noche 🌙"
   }
   return res
-}
+} 
