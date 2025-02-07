@@ -42,9 +42,9 @@ let handler = async function (m, { conn, usedPrefix, command }) {
         contextInfo: {
             externalAdReply: {
                 title: '⊱『🌃𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥🍬』⊰',
-                body: '¡Bienvenido a CrowBot!',
+                body: '¡Bienvenido a Nagi-Bot!',
                 thumbnailUrl: 'https://i.ibb.co/GMTyKcN/file.jpg',
-                sourceUrl: 'https://whatsapp.com/channel/0029Vb1kImN42Dcn99y1rW0E',
+                sourceUrl: 'https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x',
                 mediaType: 1,
                 showAdAttribution: true,
                 renderLargerThumbnail: true
