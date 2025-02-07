@@ -4,9 +4,9 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'crow': '👑「 *`MENUS Nagi-Bot`* 」👑',
+  'crow': '👑「 *`MENUS NAGI-BOT`* 」👑',
   'main': '「INFO」🍨',
-  'teclado': '「TECLADO Nagi-Bot」🍨',
+  'teclado': '「TECLADO NAGI-BOT」🍨',
   'buscador': '「BUSQUEDAS」🍨',
   'fun': '「JUEGOS」🍨',
   'serbot': '「SUB BOTS」🍨',
@@ -32,7 +32,7 @@ const defaultMenu = {
 
 "*「💛」 ¡Hola! %name soy ${nombrebot}*, *%greeting* ❒"
 
-╔━━━━━ *⊱𝐈𝐍𝐅𝐎 - 𝐁𝐎𝐓⊰*
+╔━━━━━ *⊱INFO - BOT⊰*
 ✦  👤 *Cliente:* %name
 ✧  ❤️‍🔥 *Exp:* %exp
 ✦  🌟 *Estrellas:* %estrellas
@@ -40,7 +40,7 @@ const defaultMenu = {
 ✦  🌠 *Rango:* %role
 ╚━━━━━━━━━━━━━━
 %readmore
-╔━━━━━ *⊱𝐈𝐍𝐅𝐎 - 𝐔𝐒𝐄𝐑⊰*
+╔━━━━━ *⊱INFO - USER⊰*
 ✧  🤖 *Bot:* Nagi-Bot
 ✦  🔱 *Modo:* Privado VIP 
 ✧  ✨ *Baileys:* Multi Device
