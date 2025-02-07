@@ -32,15 +32,15 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/50557865603'
+global.creador = 'Wa.me/51920227615'
 global.botreal = `${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}`
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/50557865603'
-global.namech = '˙˒𖥻˚𝐂𝐫𝐨𝐰𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥﹋꥟'
-global.namechannel2 = '『✯ 𝗧𝗲𝗮𝗺 𝗖𝗼𝗺𝘂𝗻𝗶𝘁𝘆 𝗖𝗿𝗼𝘄 ✯』'
-global.namegrupo = 'シ︎ 𝗖𝗿𝗼𝘄𝗕𝗼𝘁-𝗠𝗗 💛'
-global.namecomu = '『𝗚𝗿𝘂𝗽𝗼 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 𝗖𝗿𝗼𝘄𝗕𝗼𝘁✯』'
-global.namecomu2 = '𝗧𝗵𝗲𝗖𝗿𝗼𝘄𝗕𝗼𝘁'
+global.asistencia = 'Wa.me/51920227615'
+global.namech = '˙˒𖥻˚Nagi-Bot - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥﹋꥟'
+global.namechannel2 = '『✯ 𝗧𝗲𝗮𝗺 𝗖𝗼𝗺𝘂𝗻𝗶𝘁𝘆 Nagi's ✯』'
+global.namegrupo = 'シ︎ Nagi-Proyecy 💛'
+global.namecomu = '『𝗚𝗿𝘂𝗽𝗼 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 Nagi-Bot✯』'
+global.namecomu2 = 'Nagi-Proyect'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -59,10 +59,10 @@ global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
-var grupo = 'https://chat.whatsapp.com/B7POPrlJiZf7UWHJKvzVkx'  
-var github = 'https://github.com/WillZek/CrowBot-ST' 
+var grupo = 'https://chat.whatsapp.com/H5UC1FBtT0pI2YjJZ6zipB'  
+var github = 'https://github.com/seishironagibot/Nagi-proyect' 
 var web = 'https://crow-bot-dashboard.vercel.app/' 
-let instagram = 'https://www.instagram.com/crowbot_wa'
+let instagram = 'https://www.instagram.com/nagibot_wa'
 
 global.redes = [grupo, github, web, instagram].getRandom()
 
@@ -88,7 +88,7 @@ global.readMore = more.repeat(850)
 
 global.authsticker = `┊🤖Bot\n┊↳${botname}\n\n┊👑Usuario\n┊↳ @${conn.getName(m.sender)}`;
 
-global.packsticker = `┊ 🔱𝐒𝐪𝐮𝐚𝐝 𝐂𝐫𝐨𝐰'𝐬 𝐂𝐥𝐮𝐛\n↳https://crow-bot-dashboard.vercel.app/\n\n┊ 🎩Info:\n↳Wa.me/50557865603`
+global.packsticker = `┊ 🔱team nagi'𝐬 𝐂𝐥𝐮𝐛\n↳https://crow-bot-dashboard.vercel.app/\n\n┊ 🎩Info:\n↳Wa.me/51920227615`
 
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
@@ -99,7 +99,7 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 //Id Channel
 global.idchannel = '120363381910502266@newsletter'
 global.canalIdM = ["120363377595441592@newsletter", "120363368073378190@newsletter", "120363387375075395@newsletter"]
-global.canalNombreM = ["⏤͟͟͞͞𝐒𝐪𝐮𝐚𝐝 𝐂𝐫𝐨𝐰'𝐬 𝐂𝐥𝐮𝐛۵࿐", "✯ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯", "⏤͟͟͞͞☆ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 𝐓𝐞𝐬𝐭 『𝐏𝐨𝐝𝐜𝐚𝐬𝐭』"]
+global.canalNombreM = ["⏤͟͟͞͞Nagi Bot'𝐬 𝐂𝐥𝐮𝐛۵࿐", "✯ Nagi - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯", "⏤͟͟͞͞☆ Nagi-Boy 𝐓𝐞𝐬𝐭 『𝐏𝐨𝐝𝐜𝐚𝐬𝐭』"]
 global.channelRD = await getRandomChannel()
 // global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "3876577197-120363302285079181@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
   
